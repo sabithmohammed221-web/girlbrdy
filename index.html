@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#180d20">
+  <title>For Baby ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow"></div>
+  <div class="stars" id="stars"></div>
+  <div class="petals" id="petals"></div>
+
+  <button class="music-toggle" id="musicToggle" aria-label="Pause music" title="Music">♫</button>
+  <audio id="birthdaySong" src="assets/music.mp3" preload="auto" loop></audio>
+
+  <main>
+    <section class="page active" id="page1">
+      <div class="card cover-card">
+        <div class="tiny-label">A little surprise, made with love</div>
+        <div class="big-heart">♡</div>
+        <p class="script">For someone precious</p>
+        <h1>Hey, <span>Baby</span>...</h1>
+        <p class="intro">I have something special waiting for you.<br>Take a little moment, and open it with a smile.</p>
+        <button class="main-btn" id="openBtn">Open your surprise <span>♡</span></button>
+        <div class="hint">Turn your sound on for the full experience</div>
+      </div>
+    </section>
+
+    <section class="page" id="page2">
+      <div class="card">
+        <div class="tiny-label">A little note from my heart</div>
+        <h2>My beautiful <span>Baby</span> ❤️</h2>
+        <p class="message">Some people make life feel softer and brighter just by being in it. You are one of those rare people. Your smile, your kindness, and all the little things that make you <em>you</em> mean more to me than I can ever properly explain.</p>
+        <p class="message">I hope you never forget how precious you are, and how much happiness you deserve.</p>
+        <button class="main-btn" data-next="3">Keep going, Baby <span>♡</span></button>
+      </div>
+    </section>
+
+    <section class="page photo-page" id="page3">
+      <div class="card photo-card">
+        <div class="tiny-label">A moment I want to keep</div>
+        <h2>Simply <span>beautiful</span> ✨</h2>
+        <div class="photo-frame"><img src="assets/photo1.jpeg" alt="Baby - first favourite photo"></div>
+        <p class="photo-caption">If I could pause a moment just to admire it, it would be a moment like this. ❤️</p>
+        <button class="main-btn" data-next="4">There's another surprise <span>♡</span></button>
+      </div>
+    </section>
+
+    <section class="page photo-page" id="page4">
+      <div class="card photo-card">
+        <div class="tiny-label">Another little favourite</div>
+        <h2>That lovely <span>smile</span> 💗</h2>
+        <div class="photo-frame"><img src="assets/photo2.jpeg" alt="Baby - second favourite photo"></div>
+        <p class="photo-caption">May that smile stay with you through every season, every new beginning, and every dream ahead.</p>
+        <button class="main-btn" data-next="5">One last thing, Baby 🎁</button>
+      </div>
+    </section>
+
+    <section class="page" id="page5">
+      <div class="card final-card">
+        <div class="tiny-label">Your day. Your wishes. Your happiness.</div>
+        <div class="cake">🎂</div>
+        <p class="script">With all my love</p>
+        <h1>Happy Birthday,<br><span>Baby!</span></h1>
+        <p class="message">May this new year of your life bring you peace when you need it, courage for every dream, countless reasons to smile, and happiness that finds you in the smallest moments.</p>
+        <p class="message">You deserve beautiful things, today and always. Keep shining, keep smiling, and never stop being your wonderful self.</p>
+        <h2 class="love-line">I love you. ❤️</h2>
+        <button class="main-btn" id="wishBtn">Make a wish ✨</button>
+        <p class="final-note" id="finalNote"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
